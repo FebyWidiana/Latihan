@@ -25,8 +25,7 @@ const Layout = () => {
             <div className="font-semibold  text-blue text-xl">
                 Eka Putri (7799000004 | Leader Priority)
             </div>
-            <div className="flex sm:flex-row flex-col
-            ">
+            <div className="flex sm:flex-row flex-col">
                 <div>
                     <div className="  bg-white">
                         <img src={Sampul.src}></img>
