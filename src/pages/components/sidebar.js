@@ -9,6 +9,8 @@ import Komisi from '@/assets/img/sidebar/ic_komisi.svg'
 import Video from '@/assets/img/sidebar/ic_video.svg'
 import Pengaturan from '@/assets/img/sidebar/ic_pengaturan.svg'
 import Keluar from '@/assets/img/sidebar/ic_keluar.svg'
+import { User } from 'react-feather';
+import Link from 'next/link';
 
 
 const Sidebar = () => {
@@ -36,7 +38,14 @@ const Sidebar = () => {
                         <button className='flex'>
                             <Dashboard className=" mr-3" />
                             <li className="text-center font-semibold">
-                                Dashboard
+                                <Link href="/">Dashboard</Link>
+
+                            </li>
+                        </button>
+                        <button className='flex mt-5'>
+                            <Reseller className=" fill-blue mr-3" />
+                            <li className="text-center font-semibold">
+                                <Link href="/user">User</Link>
                             </li>
                         </button>
                         <button className='flex mt-5'>

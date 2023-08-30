@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-login': "url('../assets/img/bg.jpg')",
-        'logo': "url('../assets/img/anava.png')",
+        'login': "url('../assets/img/bg.jpg')",
+
       },
 
       colors: {
